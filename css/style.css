@@ -1,0 +1,382 @@
+/* Estilos Gerais */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.btn {
+    border: 3px solid #5BC0BE;
+    padding: 10px 30px;
+    color: #5BC0BE;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.btn:hover {
+    color: #fff;
+    border-color: #fff;
+    transition: all 300ms;
+}
+
+.btn-azul:hover {
+    color: #3A506B;
+    border-color: #3A506B;
+    transition: all 300ms;
+}
+
+.subtitulo {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: #3A506B;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subtitulo:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #3A506B;
+    margin: 8px auto;
+}
+
+.subtitulo-interno {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #3A506B;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.subtitulo-interno:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #3A506B;
+    margin: 8px 0;
+}
+
+/* Header */
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #5BC0BE;
+    padding: 15px 0;
+    font-size: 14px;
+    z-index: 10;
+}
+
+.header_menu {
+    text-align: center;
+}
+
+
+.header_menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.header_menu ul li a {
+    color: #3A506B;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+    color: #fff;
+    transition: all 300ms;
+}
+
+.header_menu ul li a.menu_ativo {
+    color: #fff;
+}
+
+/* Introdução */
+
+.introducao {
+    width: 100%;
+    background: url("../img/bg-intro.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 90px;
+    height: 380px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.introducao h1 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.quote-externo {
+    max-width: 320px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.quote-externo p {
+    font-style: italic;
+}
+
+.quote-externo p:before, .quote-externo p:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 14px auto 10px auto;
+}
+
+.quote-externo cite {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+/* Introdução Interna */
+
+.introducao-interna {
+  width: 100%;
+  margin-top: 90px;
+  height: 160px;
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.introducao-interna h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.introducao-interna h1:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 6px auto 10px auto;
+}
+
+/* Serviços */
+
+.servicos {
+    padding: 50px 0;
+}
+
+.servicos_lista li{
+    background: #5BC0BE;
+    text-align: center;
+}
+
+.servicos_lista h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3A506B;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-top: 15px;
+}
+
+.servicos_lista h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #3A506B;
+    margin: 2px auto;
+}
+
+.servicos_lista li p {
+    padding: 10px 20px 20px 20px;
+    color: #3A506B;
+}
+
+.servicos_icone {
+    background: #3A506B;
+    padding: 20px;
+    text-align: center;
+}
+
+.call {
+    padding-top: 40px;
+    text-align: center;
+    clear: both;
+}
+
+.call p {
+    margin-bottom: 20px;
+    color: #3A506B;
+}
+
+/* Portfólio */
+
+.portfolio {
+    width: 100%;
+    background: #3A506B;
+    padding: 40px 0;
+}
+
+.portfolio .subtitulo {
+    color: #5BC0BE;
+} 
+
+.portfolio .subtitulo:after {
+    background: #5BC0BE;
+}
+
+.portfolio_lista li:last-child {
+    margin-top: 20px;
+}
+
+.portfolio .call p{
+    color: #5BC0BE;
+}
+
+/* Footer */
+
+.footer {
+    margin-top: 60px;
+    width: 100%;
+    background: #3A506B;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #5BC0BE;
+}
+
+.footer h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #5BC0BE;
+    margin: 6px 0 12px 0;
+}
+
+.footer_historia {
+    padding-right: 40px;
+}
+
+.footer_contato ul li {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.footer_redes ul li {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.footer_redes ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.copy {
+    width: 100%;
+    background-color: #5BC0BE;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Javascript*/
+
+.js [data-slide] {
+    position: relative;
+}
+
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+
+.js [data-slide-nav] {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.js [data-slide-nav] button {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 4px;
+    border: none;
+    padding: 0px;
+    border-radius: 6px;
+    text-indent: -99px;
+    overflow: hidden;
+    background: #1d1d1d
+}
+
+.js [data-slide-nav] button.active {
+    background: #5bc0be;
+}
+
+.js [data-anime] {
+    opacity: 0;
+
+}
+
+.js .fadeInDown {
+    transform: translate3d(0, -20px, 0);
+}
+
+.js .anime {
+    opacity: 1;
+    transform: none;
+    transition: opacity 800ms, transform 800ms;
+}
+

@@ -1,0 +1,18 @@
+.interna_sobre {
+    background: url("../img/portfolio/bg-portfolio.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.quote_empresa {
+    padding: 60px 0;
+    max-width: 513px;
+    margin: 0 auto;
+}
+
+.quote_empresa p {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,172 @@
+/* Estilo para tablet*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+	
+	/*Footer*/
+	.footer_redes ul li {
+		display: inline-block;
+		padding: 5px;
+		width: 50px;
+		height: 50px;
+	}
+
+	/* Serviços */
+	.servico_item h2 {
+		top: -150px;
+		margin-bottom: -56px;
+	}	
+
+	.servico_icone {
+    padding: 19px 0;
+	}
+
+	.servico_info p {
+    font-size: 14px;
+    line-height: 20px;
+    height: 180px;
+    padding: 20px 30px;
+	}
+
+	.servico_info ul li:nth-child(1), .servico_info ul li:nth-child(2), .servico_info ul li:nth-child(3)  {
+    margin-right: 2px;
+    width: 185px;
+	}
+
+	.servico_info ul li:nth-child(4) {
+    width: 187px;
+	}
+	
+}/* Final do estilo para tablet */
+
+/* Estilo para smartphone*/
+@media only screen and (max-width: 787px) {
+
+	/*header*/
+	.header {
+		position: relative;
+		padding-bottom: 0px;
+	}
+	.header img{ 
+		margin: 0px auto 10px 110px;
+	}
+	.header_menu {
+		text-align: center;
+	}
+	
+	.header_menu ul li {
+		margin: 5px;
+	}
+
+	.header_menu ul li a{
+		border: 4px solid #3A506B;
+		width: 136px;
+		display: block;
+		float: left;
+	}
+
+	.header_menu ul li a:hover {
+		 border-color: #fff;
+	}
+
+	.header_menu ul li a.menu_ativo {
+		border-color: #fff;
+	}
+
+	/*introducao*/
+	.introducao h1 {
+		font-size: 36px;
+
+	}
+
+	.introducao {
+		margin-top: 0px;
+		padding-top: 20px;
+		background: url("../img/bg-mobile.jpg") no-repeat center;
+		background-size: cover;
+	}
+
+	/* Introdução Interna */
+
+	.introducao-interna {
+		margin-top: 0px;
+	}
+
+	/* Call */
+	.call {
+		padding-top: 10px;
+	}
+	/* Serviços */
+	.servico_item h2 {
+		font-size: 25px;
+		top: -100px;
+		height: auto;
+		margin-bottom: -60px;
+	}	
+
+	.servico_info p {
+		font-size: 14px;
+		line-height: 20px;
+		padding: 20px 30px;
+		height: auto;
+		margin-bottom: 2px;
+	}
+
+	.servico_info ul li{
+		width: 190px;
+	}
+
+	.servico_info ul li {
+    background: #5BC0BE;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    float: left;
+    height: 60px;
+    text-align: center;
+    padding-top: 16px;
+    color: #fff;
+	}
+	.servico_info ul li:nth-child(1), .servico_info ul li:nth-child(2), .servico_info ul li:nth-child(3)  {
+		margin-right: 0px;
+    width: 149px;
+	}
+
+	.servico_info ul li:nth-child(4) {
+    	width: 149px;
+	}
+
+	.servico_info ul li:nth-child(1), .servico_info ul li:nth-child(2) {
+		margin-bottom: 2px;
+	}
+	
+	.servico_info ul li:nth-child(even) {
+		margin-left: 2px;
+	}
+
+	.form {
+		padding-right: 0px;
+	}
+
+	.orcamento_dados ul {
+    padding-right: 0px;
+	}
+
+	/* Contato */
+
+	.contato_form {
+		padding-right: 0px;
+		margin-bottom: 20px;
+	}
+
+	.contato_mapa {
+		margin-bottom: 0px;
+		width: 100%;
+	}
+
+	.footer {
+    margin-top: 0px;
+}
+
+
+} /* Final do estilo para smartphone */
